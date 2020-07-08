@@ -1,16 +1,12 @@
 html,
 body,
 header {
-    box-sizing: border-box;
+    
     height: 100%;
     background-color: rgba(183, 231, 182, 0.155);
 }
 
-.container{
-    margin-right: 0;
-    margin-left:0;
-    /* border:solid; */
-}
+
 .navbar{
     background-color: rgb(155, 182, 107, 0.8);
 }
@@ -22,6 +18,7 @@ header {
     color: #081f0b; 
     cursor: pointer;
 }
+
 
 .nav-link:hover, .navbar-brand:hover{ 
     
