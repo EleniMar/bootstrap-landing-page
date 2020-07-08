@@ -1,20 +1,21 @@
 html,
 body,
 header {
-    
+    color: #081f0b;
     height: 100%;
     background-color: rgba(183, 231, 182, 0.155);
 }
 
-header{
+/* header{
     background-image: url("olive.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     
-}
-.navbar{
+} */
+.navbar, footer{
     background-color: rgb(155, 182, 107, 0.8);
+     
 }
 .nav-link{ 
     margin-right: 1em; 
@@ -25,7 +26,6 @@ header{
     cursor: pointer;
 }
 
-
 .nav-link:hover, .navbar-brand:hover{ 
     
     color: #374603cb; 
@@ -35,5 +35,11 @@ header{
     
     justify-self: end;
 }
+
+header{
+    height:30rem;
+    background-color: lightslategray;
+}
+
 
 
