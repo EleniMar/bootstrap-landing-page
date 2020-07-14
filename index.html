@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Landing Page Template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
     crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -48,7 +48,7 @@
                             <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                 
                         </ul>
@@ -82,9 +82,11 @@
         
     </header>
     <main>
+      <!--About Section-->
         <section id="about">
         <div class="container-fluid bg-2 text-center">
             <h2 class="display-4">About us</h2>
+            <hr>
             <p class="separator">We are a group of people passionate about good quality pianos.</p>
 
             <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -112,13 +114,33 @@
 
         </div>
         </section>
-
+        <!--End About Section-->
+        <!--Products Section-->
+        <div id="products" class="container">
+          <h2 class="display-4">Our Products</h2>
+          <hr>
+            <div class="row">
+                <div class="card col-6">
+                    <div class="card-header">Upright Piano</div>
+                    <div class="card-body"><img class="product-img card-img"src="upright-piano.jpg" ></div>
+                    <div class="card-footer">$</div>
+                </div>
+                <div class="card col-6">
+                    <div class="card-header">Grande Piano</div>
+                    <div class="card-body"><img class="product-img card-img"src="grand-piano.jpg" ></div>
+                    <div class="card-footer">$$</div>
+                  </div>
+                  
+            
+        </div>
+        <!--End Products Section-->
+        <!--Contact Section-->
         <section id="contact" class="padd-section">
 
             <div class="container" data-aos="fade-up">
               <div class="section-title text-center">
                 <h2 class="display-4">Contact us</h2>
-                
+                <hr>
               </div>
       
               <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -142,7 +164,7 @@
       
                 <div class="col-lg-5 col-md-8">
                   <div class="form">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form role="form" class="php-email-form">
                       <div class="form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                         <div class="validate"></div>
@@ -170,27 +192,9 @@
                 </div>
               </div>
             </div>
-          </section><!-- End Contact Section -->
-        <!-- <div id="products" class="container">
+          </section>
+          <!-- End Contact Section -->
         
-            <div class="row">
-                <div class="card col-4">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">Content</div>
-                    <div class="card-footer">Footer</div>
-                </div>
-                <div class="card col-4">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">Content</div>
-                    <div class="card-footer">Footer</div>
-                  </div>
-                  <div class="card col-4">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">Content</div>
-                    <div class="card-footer">Footer</div>
-                  </div>
-            
-        </div> -->
     </div>
     </main>
     <!--Main layout-->

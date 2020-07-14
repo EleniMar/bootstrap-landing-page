@@ -1,6 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+html{
+  scroll-behavior: smooth;
+}
+html, body{
+  background-image: linear-gradient(rgba(51, 37, 19,0.8), rgba(173, 120, 76, 0.8),rgba(221, 180, 147, 0.4));
 }
 
 .container{
@@ -9,11 +16,9 @@
     /* border:solid; */
 } 
 
-#logo{
-    color: beige;
-}
-.navbar, footer{
-    /* background-color: rgb(139, 143, 132); */
+.navbar{
+    background-color: rgba(173, 120, 76, 0.4);
+   border-bottom: 5px rgba(173, 120, 76, 0.8);
      
 }
 .nav-link{ 
@@ -21,15 +26,17 @@
 }
 
 .nav-link , .navbar-brand { 
-    color: #ffffff; 
+    color: #eece66; 
     cursor: pointer;
 }
 
 .nav-link:hover, .navbar-brand:hover{ 
-    background-color: #ffffff;
+    
     color: rgb(77, 50, 9); 
 }
-
+.nav-link:hover{
+  background-color: #ffffff;
+}
 .navbar-toggler{
     
     justify-self: end;
@@ -38,6 +45,7 @@
 
 
 .jumbotron {
+    /* margin-top: 2em; */
     position:relative;
     overflow:hidden;
     height: 100vh;
@@ -89,15 +97,18 @@
       color: #000000;
       opacity: 1;
   }
-  
+
+  #products{
+    margin-top: 2em;
+    text-align: center;
+    
+  }
+  .card{
+    background-color: rgba(0,0,0,0.1);
+  }
  .carousel-img{
      border-radius: 2%;
  }
-
-
- #contact {
-    background: #fff;
-  }
   
   #contact .info {
     color: #222;
